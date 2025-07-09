@@ -1,32 +1,66 @@
 # Amazon-Clone-WebPage
 
-This project is a static clone of the Amazon.com homepage, built primarily with HTML and CSS. It aims to replicate the visual layout and core design elements of the popular e-commerce platform.
+This project is a functional and visually faithful clone of the Amazon.com homepage, built using **HTML**, **CSS**, and **JavaScript**. It replicates the UI design, layout structure, and core interactions of the Amazon storefront, and is ideal for learning front-end development concepts.
 
 ---
 
-# Features
-1)Navigation Bar: A top navigation bar with the Amazon logo, delivery address, a search bar with category selection, sign-in options, returns & orders, and a shopping cart.
+##  Features
 
-2)Utility Panel: A secondary panel below the navigation bar featuring "All" categories and various links such as "Today's Deals," "Customer Service," "Registry," "Gift Cards," and "Sell".
+###  Layout & Styling (HTML + CSS)
+1. **Navigation Bar**  
+   Includes Amazon logo, location info, search bar with category dropdown, sign-in area, returns & orders, and cart.
 
-3)Shop Section (Product Display): A grid of product category boxes, including Electronics, Health & Personal Care, Furniture, and Beauty picks, each with an image and a "See more" link.
+2. **Utility Panel**  
+   Displays shortcut links like "Today's Deals", "Customer Service", "Registry", and more.
 
-4)Footer: A multi-tiered footer with links for "Back to Top," "Get to Know Us," "Make Money with Us," "Amazon Payment Products," and "Let Us Help You," along with copyright information.
+3. **Hero Section**  
+   A promotional banner image with a redirect to Amazon India.
+
+4. **Product Grid Section**  
+   Categories like Electronics, Health & Personal Care, Furniture, and Beauty Picks with “See more” links and images.
+
+5. **Footer**  
+   Contains navigational links, legal information, and a “Back to Top” link.
 
 ---
 
-# Technologies Used
-1)HTML
+### ⚙ JavaScript Functionalities
+1. **Login Popup Modal**  
+   A modal appears when the sign-in button is clicked. Allows basic login (mock only).
 
-2)CSS
+2. **Real-time Search Filter**  
+   Typing in the search bar dynamically filters product categories shown.
 
-3)Font Awesome: It is used for various icons (e.g., location, search, cart, menu).
+3. **Category Filter Dropdown**  
+   Selecting a category filters the product grid to show only that category.
+
+4. **Cart Counter with LocalStorage**  
+   Clicking “See more” increments the cart count and stores it persistently.
+
+5. **Back to Top Button**  
+   Smooth scrolls the page to the top when clicked.
 
 ---
 
-# Screenshots
-They have been uploaded in the repository 
-some are not given here but are included in the html file
+## Technologies Used
+
+- **HTML5**
+- **CSS3**
+- **JavaScript ES6**
+- **Font Awesome** (for icons)
+
+---
+
+##  Screenshots
+
+Screenshots are available in the repository. Images used within the site include:
+- `amazon_logo.png`
+- `hero_image.jpg`
+- `furniture.jpg`
+
+(Ensure all are placed in the project root for proper rendering.)
+
+---
 
 ---
 
